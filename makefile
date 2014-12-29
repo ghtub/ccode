@@ -1,2 +1,6 @@
-TODOlist: TODOlist.c
-	gcc -o exec TODOlist.c
+CC=gcc
+CFLAGS=-I
+src=temperatures.c
+
+compile: $(src)
+	gcc -o exec $(src)
